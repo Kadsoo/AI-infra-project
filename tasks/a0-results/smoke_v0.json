@@ -1,0 +1,82 @@
+[
+ {
+  "id": 0,
+  "ttft_s": 0.483,
+  "itl_s": 0.0195,
+  "e2e_s": 2.749,
+  "out_tokens": 117,
+  "text_head": "To find the product of 2847 * 391, I will use the calculator tool provided.  Let's proceed with the calculation. Tool: c"
+ },
+ {
+  "id": 1,
+  "ttft_s": 0.087,
+  "itl_s": 0.019,
+  "e2e_s": 2.173,
+  "out_tokens": 111,
+  "text_head": "To find the capital of Australia and its population, I will first search for the capital city. Then, I will look up the "
+ },
+ {
+  "id": 2,
+  "ttft_s": 0.066,
+  "itl_s": 0.0189,
+  "e2e_s": 2.016,
+  "out_tokens": 104,
+  "text_head": "To summarize the content of document ID 42 in one sentence, I will first need to read the document. Let's proceed with t"
+ },
+ {
+  "id": 3,
+  "ttft_s": 0.074,
+  "itl_s": 0.0188,
+  "e2e_s": 2.466,
+  "out_tokens": 128,
+  "text_head": "To solve the expression \\((17^3 - 256) / 13\\) using a calculator, we need to break it down into two main steps:  1. Calc"
+ },
+ {
+  "id": 4,
+  "ttft_s": 0.066,
+  "itl_s": 0.019,
+  "e2e_s": 2.475,
+  "out_tokens": 128,
+  "text_head": "To find out who won the 2024 Nobel Prize in Physics, we would typically need to check the official announcement from the"
+ },
+ {
+  "id": 5,
+  "ttft_s": 0.069,
+  "itl_s": 0.0191,
+  "e2e_s": 1.388,
+  "out_tokens": 70,
+  "text_head": "To find the square root of 987654, we can use a calculator for this precise calculation. Let's proceed with that. First,"
+ },
+ {
+  "id": 6,
+  "ttft_s": 0.065,
+  "itl_s": 0.0189,
+  "e2e_s": 2.471,
+  "out_tokens": 128,
+  "text_head": "To find the tallest building in the world and its height, I can use a quick web search to get this information directly."
+ },
+ {
+  "id": 7,
+  "ttft_s": 0.075,
+  "itl_s": 0.0189,
+  "e2e_s": 2.472,
+  "out_tokens": 128,
+  "text_head": "To address this request, I'll need to follow these steps:  1. Retrieve the document content from the given ID (doc id 7)"
+ },
+ {
+  "id": 8,
+  "ttft_s": 0.066,
+  "itl_s": 0.0189,
+  "e2e_s": 2.466,
+  "out_tokens": 128,
+  "text_head": "To calculate a 15% tip on a $86.40 bill, we can use the calculator to perform the calculation.  Here's how we can do it:"
+ },
+ {
+  "id": 9,
+  "ttft_s": 0.072,
+  "itl_s": 0.0188,
+  "e2e_s": 2.454,
+  "out_tokens": 128,
+  "text_head": "To find out when the James Webb Space Telescope (JWST) was launched, I will use a web search to locate this information."
+ }
+]

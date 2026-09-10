@@ -1,0 +1,150 @@
+{
+  "run_id": "stationarity-3mb-stationarity-02_11_c4_seed4401_off_r3",
+  "config": {
+    "name": "stationarity_c4_seed4401_round3",
+    "run_id": "stationarity-3mb-stationarity-02_11_c4_seed4401_off_r3",
+    "phase": "stationarity_L0",
+    "concurrency": 4,
+    "seed": 4401,
+    "round": 3,
+    "chronological_order": 11,
+    "level": 0,
+    "level_name": "off",
+    "request_count": 40,
+    "input_tokens": 512,
+    "output_tokens": 64,
+    "arrival_distribution": "closed",
+    "warmup_requests": 2,
+    "stream": true,
+    "timeout": 180,
+    "sampler_interval": 0.3,
+    "client_mode": "pooled",
+    "client_pool": "max_connections=8,max_keepalive=8",
+    "server_pid": 19372,
+    "environment_hash": "5ef1dcbf575c"
+  },
+  "success": 38,
+  "failed": 0,
+  "total_requests": 38,
+  "duration_s": 11.152084350585938,
+  "throughput_rps": 3.7270558558826528,
+  "token_throughput": 238.53157477648978,
+  "latency": {
+    "count": 38,
+    "mean": 1.0361559516505192,
+    "median": 1.0656325817108154,
+    "std": 0.12330472718456865,
+    "min": 0.5433645248413086,
+    "max": 1.140434980392456,
+    "p50": 1.0656325817108154,
+    "p95": 1.133055531978607,
+    "p99": 1.1383261156082154
+  },
+  "ttft": {
+    "count": 38,
+    "mean": 0.13888659736842104,
+    "median": 0.13974645,
+    "std": 0.05083982445592148,
+    "min": 0.0484011,
+    "max": 0.2355882,
+    "p50": 0.13974645,
+    "p95": 0.21569511499999997,
+    "p99": 0.23326167700000003
+  },
+  "tpot": {
+    "count": 38,
+    "mean": 0.014188053634072363,
+    "median": 0.014453694444715177,
+    "std": 0.0016218968223133032,
+    "min": 0.007798650793524252,
+    "max": 0.015897228571933708,
+    "p50": 0.014453694444715177,
+    "p95": 0.015507507618998976,
+    "p99": 0.01579139682579793
+  },
+  "system": {
+    "cpu": {
+      "count": 34,
+      "mean": 48.89705882352941,
+      "median": 49.5,
+      "std": 6.3252014122497195,
+      "min": 22.1,
+      "max": 58.0,
+      "p50": 49.5,
+      "p95": 56.635000000000005,
+      "p99": 57.571
+    },
+    "cpu_freq_current_mhz": {
+      "count": 34,
+      "mean": 2135.235294117647,
+      "median": 2200.0,
+      "std": 211.32024510042766,
+      "min": 1466.0,
+      "max": 2200.0,
+      "p50": 2200.0,
+      "p95": 2200.0,
+      "p99": 2200.0
+    },
+    "server_process_cpu": {
+      "count": 34,
+      "mean": 391.09411764705885,
+      "median": 388.5,
+      "std": 95.99438096300527,
+      "min": 0.0,
+      "max": 543.1,
+      "p50": 388.5,
+      "p95": 535.7950000000001,
+      "p99": 541.054
+    },
+    "server_process_rss_mb": {
+      "count": 34,
+      "mean": 550.4949448529412,
+      "median": 651.771484375,
+      "std": 168.55151524656227,
+      "min": 137.7265625,
+      "max": 703.88671875,
+      "p50": 651.771484375,
+      "p95": 696.91796875,
+      "p99": 701.5870312500001
+    },
+    "server_process_threads": {
+      "count": 34,
+      "mean": 247,
+      "median": 247.0,
+      "std": 0.0,
+      "min": 247,
+      "max": 247,
+      "p50": 247.0,
+      "p95": 247.0,
+      "p99": 247.0
+    },
+    "gpu_util": {
+      "count": 34,
+      "mean": 32.1764705882353,
+      "median": 31.0,
+      "std": 4.8770991641225105,
+      "min": 26.0,
+      "max": 44.0,
+      "p50": 31.0,
+      "p95": 42.7,
+      "p99": 44.0
+    },
+    "gpu_mem_percent": {
+      "count": 34,
+      "mean": 24.41623176581942,
+      "median": 24.389875045798732,
+      "std": 0.10301865070700332,
+      "min": 24.324993511846603,
+      "max": 24.68069698033708,
+      "p50": 24.389875045798732,
+      "p95": 24.58940484550562,
+      "p99": 24.680696980337082
+    },
+    "ram_max_gb": 18.12497329711914
+  },
+  "not_available": {
+    "kv_cache_usage": "NOT AVAILABLE",
+    "scheduler_queue": "NOT AVAILABLE",
+    "batch_size": "NOT AVAILABLE"
+  }
+}

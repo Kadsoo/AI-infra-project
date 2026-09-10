@@ -1,0 +1,241 @@
+{
+  "run_id": "stationarity-3mb-stationarity-02_05_c1_seed4102_off_r2",
+  "session_id": "3mb-stationarity-02",
+  "seq": 5,
+  "started_at_utc": "2026-08-28T15:24:20.786488+00:00",
+  "finished_at_utc": "2026-08-28T15:24:42.888771+00:00",
+  "level": 0,
+  "level_name": "off",
+  "concurrency": 1,
+  "seed": 4102,
+  "round": 2,
+  "chronological_order": 5,
+  "config": {
+    "name": "stationarity_c1_seed4102_round2",
+    "run_id": "stationarity-3mb-stationarity-02_05_c1_seed4102_off_r2",
+    "phase": "stationarity_L0",
+    "concurrency": 1,
+    "seed": 4102,
+    "round": 2,
+    "chronological_order": 5,
+    "level": 0,
+    "level_name": "off",
+    "request_count": 40,
+    "input_tokens": 512,
+    "output_tokens": 64,
+    "arrival_distribution": "closed",
+    "warmup_requests": 2,
+    "stream": true,
+    "timeout": 180,
+    "sampler_interval": 0.3,
+    "client_mode": "pooled",
+    "client_pool": "max_connections=8,max_keepalive=8",
+    "server_pid": 19372,
+    "environment_hash": "5ef1dcbf575c"
+  },
+  "workload": {
+    "count": 40,
+    "input_tokens": {
+      "mean": 511.075,
+      "min": 510,
+      "max": 512
+    },
+    "output_tokens_target": 64,
+    "arrival_distribution": "closed",
+    "workload_types": [
+      "synthetic"
+    ]
+  },
+  "source_hashes": {
+    "hf_server.py": "39cc7cd90bac40f1f712fc4233b114ad64466ff98851ff35ce4049b58b06cb87",
+    "harness.py": "aae22af6712ff9da2b8def2af3415e40d1db647828890da3f8916b6e25c8d722",
+    "minimal_trace.py": "c9b465cca1e892c4e86e16d42c88a965a2f999e30577d2a3749ee3fdb285c947",
+    "run_stage3mb.py": "6851724a6f8af3db701924e3990fb242b7f340317a975f590ddc0d140f26278f",
+    "generator.py": "5ef1dcbf575c8e95116af13bab3ad1eeaf85d739dd49cf2515e9ab3d95e3288c",
+    "LOCKED_STATIONARITY_PLAN.md": "be0c22712f9959ee28f0c0fcc7623e7e71beb90e25f9df12d42539e0b49eb124"
+  },
+  "client_runtime": {
+    "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "pid": 35652,
+    "psutil": "7.2.2",
+    "httpx": "0.28.1"
+  },
+  "client_pool_config": "max_connections=8,max_keepalive=8",
+  "server_health_before": {
+    "status": "ok",
+    "pid": 19372,
+    "loaded": true,
+    "mock": false,
+    "model_id": "sshleifer/tiny-gpt2",
+    "device": "cpu",
+    "has_torch": true,
+    "request_count": 450,
+    "uptime_s": 542.7480871677399,
+    "trace_enabled": false,
+    "trace_level": 0,
+    "trace_sample_ratio": 1.0,
+    "source_hash": "39cc7cd90bac40f1f712fc4233b114ad64466ff98851ff35ce4049b58b06cb87",
+    "runtime": {
+      "torch_version": "2.13.0+cpu",
+      "transformers_version": "5.16.1",
+      "torch_num_threads": 16,
+      "torch_num_interop_threads": 16,
+      "fixed_torch_threads": 16,
+      "fixed_torch_interop": 16,
+      "fixed_executor_max_workers": 32
+    },
+    "process": {
+      "rss_mb": 316.19140625,
+      "process_threads": 247,
+      "python_threads": 12
+    },
+    "gpu_util": 31.0,
+    "gpu_mem_used_mb": 2131.203125,
+    "gpu_mem_total_mb": 8188.0
+  },
+  "server_health_after": {
+    "status": "ok",
+    "pid": 19372,
+    "loaded": true,
+    "mock": false,
+    "model_id": "sshleifer/tiny-gpt2",
+    "device": "cpu",
+    "has_torch": true,
+    "request_count": 490,
+    "uptime_s": 565.2458517551422,
+    "trace_enabled": false,
+    "trace_level": 0,
+    "trace_sample_ratio": 1.0,
+    "source_hash": "39cc7cd90bac40f1f712fc4233b114ad64466ff98851ff35ce4049b58b06cb87",
+    "runtime": {
+      "torch_version": "2.13.0+cpu",
+      "transformers_version": "5.16.1",
+      "torch_num_threads": 16,
+      "torch_num_interop_threads": 16,
+      "fixed_torch_threads": 16,
+      "fixed_torch_interop": 16,
+      "fixed_executor_max_workers": 32
+    },
+    "process": {
+      "rss_mb": 320.33203125,
+      "process_threads": 247,
+      "python_threads": 12
+    },
+    "gpu_util": 0.0,
+    "gpu_mem_used_mb": 2002.19921875,
+    "gpu_mem_total_mb": 8188.0
+  },
+  "snapshot_before": {
+    "cpu_percent": 39.3,
+    "cpu_freq_mhz": 1466.0,
+    "ram_percent": 56.1,
+    "ram_used_gb": 17.84213638305664,
+    "server_threads": 247,
+    "server_rss_mb": 316.19140625,
+    "server_cpu": 0.0,
+    "gpu_util": 31.0,
+    "gpu_mem_used_mb": 2131.203125,
+    "gpu_mem_total_mb": 8188.0,
+    "gpu_temp": 45,
+    "gpu_clock_sm": 450,
+    "gpu_clock_mem": 810,
+    "bg_procs": [
+      {
+        "pid": 0,
+        "cpu_percent": 1976.7,
+        "name": "System Idle Process"
+      },
+      {
+        "pid": 5808,
+        "cpu_percent": 81.4,
+        "name": "MsMpEng.exe"
+      },
+      {
+        "pid": 40380,
+        "cpu_percent": 80.0,
+        "name": "ChatGPT.exe"
+      },
+      {
+        "pid": 35652,
+        "cpu_percent": 75.8,
+        "name": "python.exe"
+      },
+      {
+        "pid": 23864,
+        "cpu_percent": 59.9,
+        "name": "LeSearch.exe"
+      },
+      {
+        "pid": 41032,
+        "cpu_percent": 48.0,
+        "name": "ChatGPT.exe"
+      },
+      {
+        "pid": 22192,
+        "cpu_percent": 40.1,
+        "name": "LZTray.exe"
+      }
+    ]
+  },
+  "snapshot_after": {
+    "cpu_percent": 15.9,
+    "cpu_freq_mhz": 1466.0,
+    "ram_percent": 56.4,
+    "ram_used_gb": 17.934871673583984,
+    "server_threads": 247,
+    "server_rss_mb": 320.33203125,
+    "server_cpu": 0.0,
+    "gpu_util": 0.0,
+    "gpu_mem_used_mb": 1998.13671875,
+    "gpu_mem_total_mb": 8188.0,
+    "gpu_temp": 45,
+    "gpu_clock_sm": 210,
+    "gpu_clock_mem": 405,
+    "bg_procs": [
+      {
+        "pid": 0,
+        "cpu_percent": 1440.3,
+        "name": "System Idle Process"
+      },
+      {
+        "pid": 19372,
+        "cpu_percent": 256.4,
+        "name": "python.exe"
+      },
+      {
+        "pid": 4,
+        "cpu_percent": 34.1,
+        "name": "System"
+      },
+      {
+        "pid": 35652,
+        "cpu_percent": 30.8,
+        "name": "python.exe"
+      },
+      {
+        "pid": 41032,
+        "cpu_percent": 27.5,
+        "name": "ChatGPT.exe"
+      },
+      {
+        "pid": 40380,
+        "cpu_percent": 25.7,
+        "name": "ChatGPT.exe"
+      },
+      {
+        "pid": 2332,
+        "cpu_percent": 16.0,
+        "name": "dwm.exe"
+      }
+    ]
+  },
+  "invalid": false,
+  "invalid_reason": [],
+  "artifacts": {
+    "requests_csv": "F:\\AIinfraResearch\\research\\measurement_repair\\raw\\stationarity\\stationarity-3mb-stationarity-02_05_c1_seed4102_off_r2_requests.csv",
+    "system_csv": "F:\\AIinfraResearch\\research\\measurement_repair\\raw\\stationarity\\stationarity-3mb-stationarity-02_05_c1_seed4102_off_r2_system.csv",
+    "raw_json": "F:\\AIinfraResearch\\research\\measurement_repair\\raw\\stationarity\\stationarity-3mb-stationarity-02_05_c1_seed4102_off_r2_raw.json"
+  },
+  "trace_count": 0
+}

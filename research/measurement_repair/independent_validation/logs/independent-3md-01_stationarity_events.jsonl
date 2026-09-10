@@ -1,0 +1,6 @@
+{"event": "stationarity_run_complete", "run_id": "l0-independent-3md-01_01_c1_seed5101_off_o1", "seq": 1, "concurrency": 1, "seed": 5101, "invalid": false, "protocol": "D"}
+{"event": "stationarity_run_complete", "run_id": "l0-independent-3md-01_02_c4_seed5401_off_o2", "seq": 2, "concurrency": 4, "seed": 5401, "invalid": false, "protocol": "D"}
+{"event": "stationarity_run_complete", "run_id": "l0-independent-3md-01_03_c4_seed5402_off_o3", "seq": 3, "concurrency": 4, "seed": 5402, "invalid": false, "protocol": "D"}
+{"event": "stationarity_run_complete", "run_id": "l0-independent-3md-01_04_c1_seed5102_off_o4", "seq": 4, "concurrency": 1, "seed": 5102, "invalid": false, "protocol": "D"}
+{"event": "stationarity_run_complete", "run_id": "l0-independent-3md-01_05_c1_seed5103_off_o5", "seq": 5, "concurrency": 1, "seed": 5103, "invalid": false, "protocol": "D"}
+{"event": "stationarity_run_complete", "run_id": "l0-independent-3md-01_06_c4_seed5403_off_o6", "seq": 6, "concurrency": 4, "seed": 5403, "invalid": false, "protocol": "D"}

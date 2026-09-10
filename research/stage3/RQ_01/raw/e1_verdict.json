@@ -1,0 +1,13 @@
+{
+  "all_cells_p95_frac_25_ge_30": false,
+  "p95_frac_25_min": 0.046336126279557834,
+  "p95_frac_25_max": 0.7201337054995738,
+  "gap_pct_min": 4.832219377343028,
+  "gap_pct_max": 256.3583167743913,
+  "gap_ge_25_all": false,
+  "nv_p95_frac_max": 0.0026731836994201385,
+  "anchored_frac_p95": 0.4177403126697747,
+  "anchored_frac_p50": 0.41774031266977474,
+  "anchored_nv_frac_p95": 0.0008960048763342309,
+  "anchored_gap_pct": 71.59078961910505
+}

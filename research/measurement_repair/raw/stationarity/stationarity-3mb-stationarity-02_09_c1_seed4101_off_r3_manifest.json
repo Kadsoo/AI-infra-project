@@ -1,0 +1,241 @@
+{
+  "run_id": "stationarity-3mb-stationarity-02_09_c1_seed4101_off_r3",
+  "session_id": "3mb-stationarity-02",
+  "seq": 9,
+  "started_at_utc": "2026-08-28T15:26:03.866311+00:00",
+  "finished_at_utc": "2026-08-28T15:26:26.397168+00:00",
+  "level": 0,
+  "level_name": "off",
+  "concurrency": 1,
+  "seed": 4101,
+  "round": 3,
+  "chronological_order": 9,
+  "config": {
+    "name": "stationarity_c1_seed4101_round3",
+    "run_id": "stationarity-3mb-stationarity-02_09_c1_seed4101_off_r3",
+    "phase": "stationarity_L0",
+    "concurrency": 1,
+    "seed": 4101,
+    "round": 3,
+    "chronological_order": 9,
+    "level": 0,
+    "level_name": "off",
+    "request_count": 40,
+    "input_tokens": 512,
+    "output_tokens": 64,
+    "arrival_distribution": "closed",
+    "warmup_requests": 2,
+    "stream": true,
+    "timeout": 180,
+    "sampler_interval": 0.3,
+    "client_mode": "pooled",
+    "client_pool": "max_connections=8,max_keepalive=8",
+    "server_pid": 19372,
+    "environment_hash": "5ef1dcbf575c"
+  },
+  "workload": {
+    "count": 40,
+    "input_tokens": {
+      "mean": 510.975,
+      "min": 510,
+      "max": 512
+    },
+    "output_tokens_target": 64,
+    "arrival_distribution": "closed",
+    "workload_types": [
+      "synthetic"
+    ]
+  },
+  "source_hashes": {
+    "hf_server.py": "39cc7cd90bac40f1f712fc4233b114ad64466ff98851ff35ce4049b58b06cb87",
+    "harness.py": "aae22af6712ff9da2b8def2af3415e40d1db647828890da3f8916b6e25c8d722",
+    "minimal_trace.py": "c9b465cca1e892c4e86e16d42c88a965a2f999e30577d2a3749ee3fdb285c947",
+    "run_stage3mb.py": "6851724a6f8af3db701924e3990fb242b7f340317a975f590ddc0d140f26278f",
+    "generator.py": "5ef1dcbf575c8e95116af13bab3ad1eeaf85d739dd49cf2515e9ab3d95e3288c",
+    "LOCKED_STATIONARITY_PLAN.md": "be0c22712f9959ee28f0c0fcc7623e7e71beb90e25f9df12d42539e0b49eb124"
+  },
+  "client_runtime": {
+    "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "pid": 35652,
+    "psutil": "7.2.2",
+    "httpx": "0.28.1"
+  },
+  "client_pool_config": "max_connections=8,max_keepalive=8",
+  "server_health_before": {
+    "status": "ok",
+    "pid": 19372,
+    "loaded": true,
+    "mock": false,
+    "model_id": "sshleifer/tiny-gpt2",
+    "device": "cpu",
+    "has_torch": true,
+    "request_count": 610,
+    "uptime_s": 645.8228182792664,
+    "trace_enabled": false,
+    "trace_level": 0,
+    "trace_sample_ratio": 1.0,
+    "source_hash": "39cc7cd90bac40f1f712fc4233b114ad64466ff98851ff35ce4049b58b06cb87",
+    "runtime": {
+      "torch_version": "2.13.0+cpu",
+      "transformers_version": "5.16.1",
+      "torch_num_threads": 16,
+      "torch_num_interop_threads": 16,
+      "fixed_torch_threads": 16,
+      "fixed_torch_interop": 16,
+      "fixed_executor_max_workers": 32
+    },
+    "process": {
+      "rss_mb": 318.390625,
+      "process_threads": 249,
+      "python_threads": 12
+    },
+    "gpu_util": 9.0,
+    "gpu_mem_used_mb": 1977.29296875,
+    "gpu_mem_total_mb": 8188.0
+  },
+  "server_health_after": {
+    "status": "ok",
+    "pid": 19372,
+    "loaded": true,
+    "mock": false,
+    "model_id": "sshleifer/tiny-gpt2",
+    "device": "cpu",
+    "has_torch": true,
+    "request_count": 650,
+    "uptime_s": 668.6184890270233,
+    "trace_enabled": false,
+    "trace_level": 0,
+    "trace_sample_ratio": 1.0,
+    "source_hash": "39cc7cd90bac40f1f712fc4233b114ad64466ff98851ff35ce4049b58b06cb87",
+    "runtime": {
+      "torch_version": "2.13.0+cpu",
+      "transformers_version": "5.16.1",
+      "torch_num_threads": 16,
+      "torch_num_interop_threads": 16,
+      "fixed_torch_threads": 16,
+      "fixed_torch_interop": 16,
+      "fixed_executor_max_workers": 32
+    },
+    "process": {
+      "rss_mb": 317.5625,
+      "process_threads": 247,
+      "python_threads": 12
+    },
+    "gpu_util": 0.0,
+    "gpu_mem_used_mb": 1978.41796875,
+    "gpu_mem_total_mb": 8188.0
+  },
+  "snapshot_before": {
+    "cpu_percent": 5.1,
+    "cpu_freq_mhz": 2200.0,
+    "ram_percent": 55.3,
+    "ram_used_gb": 17.58983612060547,
+    "server_threads": 249,
+    "server_rss_mb": 318.390625,
+    "server_cpu": 0.0,
+    "gpu_util": 0.0,
+    "gpu_mem_used_mb": 1977.29296875,
+    "gpu_mem_total_mb": 8188.0,
+    "gpu_temp": 45,
+    "gpu_clock_sm": 210,
+    "gpu_clock_mem": 405,
+    "bg_procs": [
+      {
+        "pid": 0,
+        "cpu_percent": 2156.6,
+        "name": "System Idle Process"
+      },
+      {
+        "pid": 35652,
+        "cpu_percent": 71.2,
+        "name": "python.exe"
+      },
+      {
+        "pid": 4,
+        "cpu_percent": 28.5,
+        "name": "System"
+      },
+      {
+        "pid": 41032,
+        "cpu_percent": 20.9,
+        "name": "ChatGPT.exe"
+      },
+      {
+        "pid": 2332,
+        "cpu_percent": 5.1,
+        "name": "dwm.exe"
+      },
+      {
+        "pid": 17492,
+        "cpu_percent": 4.5,
+        "name": "CokeCloud.exe"
+      },
+      {
+        "pid": 9360,
+        "cpu_percent": 4.0,
+        "name": "WmiPrvSE.exe"
+      }
+    ]
+  },
+  "snapshot_after": {
+    "cpu_percent": 4.9,
+    "cpu_freq_mhz": 2200.0,
+    "ram_percent": 55.3,
+    "ram_used_gb": 17.56157684326172,
+    "server_threads": 247,
+    "server_rss_mb": 317.5625,
+    "server_cpu": 0.0,
+    "gpu_util": 0.0,
+    "gpu_mem_used_mb": 1978.41796875,
+    "gpu_mem_total_mb": 8188.0,
+    "gpu_temp": 45,
+    "gpu_clock_sm": 210,
+    "gpu_clock_mem": 405,
+    "bg_procs": [
+      {
+        "pid": 0,
+        "cpu_percent": 1627.0,
+        "name": "System Idle Process"
+      },
+      {
+        "pid": 19372,
+        "cpu_percent": 241.4,
+        "name": "python.exe"
+      },
+      {
+        "pid": 35652,
+        "cpu_percent": 30.6,
+        "name": "python.exe"
+      },
+      {
+        "pid": 4,
+        "cpu_percent": 15.7,
+        "name": "System"
+      },
+      {
+        "pid": 41032,
+        "cpu_percent": 11.1,
+        "name": "ChatGPT.exe"
+      },
+      {
+        "pid": 2332,
+        "cpu_percent": 6.7,
+        "name": "dwm.exe"
+      },
+      {
+        "pid": 34788,
+        "cpu_percent": 5.2,
+        "name": "wpscloudsvr.exe"
+      }
+    ]
+  },
+  "invalid": false,
+  "invalid_reason": [],
+  "artifacts": {
+    "requests_csv": "F:\\AIinfraResearch\\research\\measurement_repair\\raw\\stationarity\\stationarity-3mb-stationarity-02_09_c1_seed4101_off_r3_requests.csv",
+    "system_csv": "F:\\AIinfraResearch\\research\\measurement_repair\\raw\\stationarity\\stationarity-3mb-stationarity-02_09_c1_seed4101_off_r3_system.csv",
+    "raw_json": "F:\\AIinfraResearch\\research\\measurement_repair\\raw\\stationarity\\stationarity-3mb-stationarity-02_09_c1_seed4101_off_r3_raw.json"
+  },
+  "trace_count": 0
+}

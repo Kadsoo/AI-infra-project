@@ -1,0 +1,180 @@
+{
+  "run_id": "a01-20260828-overhead_overhead_08_c4_seed3402_off",
+  "session_id": "a01-20260828-overhead",
+  "phase": "overhead",
+  "sequence": 8,
+  "started_at_utc": "2026-08-28T12:47:26.802712+00:00",
+  "finished_at_utc": "2026-08-28T12:48:09.523837+00:00",
+  "command": [
+    "research\\measurement\\harness\\run_a01_causal.py",
+    "--base-url",
+    "http://127.0.0.1:8017",
+    "--phase",
+    "overhead",
+    "--session-id",
+    "a01-20260828-overhead"
+  ],
+  "base_url": "http://127.0.0.1:8017",
+  "config": {
+    "name": "a01_overhead_c4_seed3402",
+    "run_id": "a01-20260828-overhead_overhead_08_c4_seed3402_off",
+    "phase": "overhead",
+    "block": null,
+    "workload_type": "synthetic",
+    "request_count": 40,
+    "input_tokens": 512,
+    "output_tokens": 64,
+    "concurrency": 4,
+    "arrival_rate": 0,
+    "arrival_distribution": "closed",
+    "arrival_semantics": "finite_client_gated_burst",
+    "prefix_reuse_fraction": 0,
+    "seed": 3402,
+    "warmup_requests": 2,
+    "stream": true,
+    "timeout": 180,
+    "sampler_interval": 0.3,
+    "trace_enabled": false,
+    "client_mode": "per_request",
+    "server_pid": 18968,
+    "environment_hash": "6c78dce7b294"
+  },
+  "workload": {
+    "count": 40,
+    "input_tokens": {
+      "mean": 511.075,
+      "min": 510,
+      "max": 512
+    },
+    "output_tokens_target": 64,
+    "arrival_distribution": "closed",
+    "workload_types": [
+      "synthetic"
+    ]
+  },
+  "source_hashes": {
+    "hf_server.py": "38f444b96de0b35693c619081b9b25cf8d569482e9953f9ec3748ae0d858f553",
+    "harness.py": "aae22af6712ff9da2b8def2af3415e40d1db647828890da3f8916b6e25c8d722",
+    "causal_trace.py": "4f01bd4431a35c693529c41460629af2b2a5e9fe244bbb247ca9dd72527a1180",
+    "a01_causal.py": "4d7f943861bd0754aaeafac69017c852abb908eb03a04d7383b3fc159f0166ee",
+    "run_a01_causal.py": "95a281dcc5646e6f68ba3a498fc8aee7b66b7a513f53ae513c62c6fbe13aa743",
+    "generator.py": "5ef1dcbf575c8e95116af13bab3ad1eeaf85d739dd49cf2515e9ab3d95e3288c",
+    "environment.md": "6c78dce7b29407daf7560614ba22be36595139fdf95143a0497af7a23ad4e2e1",
+    "LOCKED_CAUSAL_PLAN.md": "dafb1dc6c231739475baee79dd26326e7916ce83f25c282e932e738ab0f14e38"
+  },
+  "client_runtime": {
+    "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "pid": 43060,
+    "psutil": "7.2.2",
+    "httpx": "0.28.1"
+  },
+  "server_health_before": {
+    "status": "ok",
+    "pid": 18968,
+    "loaded": true,
+    "mock": false,
+    "model_id": "sshleifer/tiny-gpt2",
+    "device": "cpu",
+    "has_torch": true,
+    "request_count": 281,
+    "uptime_s": 966.4741539955139,
+    "trace_enabled": false,
+    "source_hash": "38f444b96de0b35693c619081b9b25cf8d569482e9953f9ec3748ae0d858f553",
+    "runtime": {
+      "torch_version": "2.13.0+cpu",
+      "transformers_version": "5.16.1",
+      "torch_num_threads": 16,
+      "torch_num_interop_threads": 16
+    },
+    "process": {
+      "rss_mb": 283.5625,
+      "process_threads": 199,
+      "python_threads": 9
+    },
+    "gpu_util": 26.0,
+    "gpu_mem_used_mb": 3031.59765625,
+    "gpu_mem_total_mb": 8188.0
+  },
+  "server_health_after": {
+    "status": "ok",
+    "pid": 18968,
+    "loaded": true,
+    "mock": false,
+    "model_id": "sshleifer/tiny-gpt2",
+    "device": "cpu",
+    "has_torch": true,
+    "request_count": 321,
+    "uptime_s": 1009.2197961807251,
+    "trace_enabled": false,
+    "source_hash": "38f444b96de0b35693c619081b9b25cf8d569482e9953f9ec3748ae0d858f553",
+    "runtime": {
+      "torch_version": "2.13.0+cpu",
+      "transformers_version": "5.16.1",
+      "torch_num_threads": 16,
+      "torch_num_interop_threads": 16
+    },
+    "process": {
+      "rss_mb": 96.46875,
+      "process_threads": 199,
+      "python_threads": 9
+    },
+    "gpu_util": 46.0,
+    "gpu_mem_used_mb": 3047.9765625,
+    "gpu_mem_total_mb": 8188.0
+  },
+  "trace_integrity": {
+    "enabled": false,
+    "expected_successful_request_count": 38,
+    "observed_trace_count": 0,
+    "missing_request_ids": [
+      "req-0000-ad141d",
+      "req-0001-0ffdca",
+      "req-0002-e1d37b",
+      "req-0003-a62bbe",
+      "req-0004-55cf4e",
+      "req-0005-b886ee",
+      "req-0006-147e4f",
+      "req-0007-41740d",
+      "req-0008-767d56",
+      "req-0009-9915cc",
+      "req-0010-9a0257",
+      "req-0011-e71d44",
+      "req-0012-3629fc",
+      "req-0013-faf970",
+      "req-0014-6e364c",
+      "req-0015-9ff069",
+      "req-0016-8bcd47",
+      "req-0017-4a6957",
+      "req-0018-514c74",
+      "req-0019-7d097f",
+      "req-0020-86799c",
+      "req-0021-e863a2",
+      "req-0022-b4bd6d",
+      "req-0023-f91cf2",
+      "req-0024-0bd181",
+      "req-0025-003b94",
+      "req-0026-85f5e7",
+      "req-0027-331a15",
+      "req-0028-f0e319",
+      "req-0029-3ba4c5",
+      "req-0030-0fe6cd",
+      "req-0031-b68b60",
+      "req-0032-a1cfab",
+      "req-0033-8bb527",
+      "req-0034-afa66c",
+      "req-0035-7ff1dc",
+      "req-0036-006471",
+      "req-0037-c3a0eb"
+    ],
+    "unexpected_request_ids": [],
+    "complete": true
+  },
+  "artifacts": {
+    "requests_csv": "F:\\AIinfraResearch\\research\\stage3\\A_01_causal\\raw\\a01-20260828-overhead_overhead_08_c4_seed3402_off_requests.csv",
+    "system_csv": "F:\\AIinfraResearch\\research\\stage3\\A_01_causal\\raw\\a01-20260828-overhead_overhead_08_c4_seed3402_off_system.csv",
+    "raw_json": "F:\\AIinfraResearch\\research\\stage3\\A_01_causal\\raw\\a01-20260828-overhead_overhead_08_c4_seed3402_off_raw.json",
+    "processed_json": "F:\\AIinfraResearch\\research\\stage3\\A_01_causal\\processed\\a01-20260828-overhead_overhead_08_c4_seed3402_off_processed.json",
+    "server_traces_json": "F:\\AIinfraResearch\\research\\stage3\\A_01_causal\\raw\\a01-20260828-overhead_overhead_08_c4_seed3402_off_server_traces.json"
+  }
+}

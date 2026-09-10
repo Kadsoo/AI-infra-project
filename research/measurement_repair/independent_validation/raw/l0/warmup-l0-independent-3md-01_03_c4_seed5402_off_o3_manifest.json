@@ -1,0 +1,231 @@
+{
+  "run_id": "warmup-l0-independent-3md-01_03_c4_seed5402_off_o3",
+  "parent_formal": "l0-independent-3md-01_03_c4_seed5402_off_o3",
+  "session_id": "independent-3md-01",
+  "seq": 3,
+  "chronological_order": 3,
+  "phase": "protocold_warmup",
+  "concurrency": 4,
+  "seed": 8003,
+  "config": {
+    "name": "warmup_protocold_c4_seed8003_for_l0-independent-3md-01_03_c4_seed5402_off_o3",
+    "run_id": "warmup-l0-independent-3md-01_03_c4_seed5402_off_o3",
+    "phase": "protocold_warmup",
+    "concurrency": 4,
+    "seed": 8003,
+    "level": 0,
+    "level_name": "off",
+    "request_count": 40,
+    "input_tokens": 512,
+    "output_tokens": 64,
+    "arrival_distribution": "closed",
+    "warmup_requests": 0,
+    "stream": true,
+    "timeout": 180,
+    "sampler_interval": 0.3,
+    "client_mode": "pooled",
+    "client_pool": "max_connections=8,max_keepalive=8",
+    "server_pid": 34892,
+    "protocol_step": 1,
+    "parent_formal_run_id": "l0-independent-3md-01_03_c4_seed5402_off_o3"
+  },
+  "workload": {
+    "count": 40,
+    "input_tokens": {
+      "mean": 510.95,
+      "min": 510,
+      "max": 512
+    },
+    "output_tokens_target": 64,
+    "arrival_distribution": "closed",
+    "workload_types": [
+      "synthetic"
+    ]
+  },
+  "processed": {
+    "run_id": "warmup-l0-independent-3md-01_03_c4_seed5402_off_o3",
+    "config": {
+      "name": "warmup_protocold_c4_seed8003_for_l0-independent-3md-01_03_c4_seed5402_off_o3",
+      "run_id": "warmup-l0-independent-3md-01_03_c4_seed5402_off_o3",
+      "phase": "protocold_warmup",
+      "concurrency": 4,
+      "seed": 8003,
+      "level": 0,
+      "level_name": "off",
+      "request_count": 40,
+      "input_tokens": 512,
+      "output_tokens": 64,
+      "arrival_distribution": "closed",
+      "warmup_requests": 0,
+      "stream": true,
+      "timeout": 180,
+      "sampler_interval": 0.3,
+      "client_mode": "pooled",
+      "client_pool": "max_connections=8,max_keepalive=8",
+      "server_pid": 34892,
+      "protocol_step": 1,
+      "parent_formal_run_id": "l0-independent-3md-01_03_c4_seed5402_off_o3"
+    },
+    "success": 40,
+    "failed": 0,
+    "total_requests": 40,
+    "duration_s": 9.124747514724731,
+    "throughput_rps": 4.383838489940858,
+    "token_throughput": 280.5656633562149,
+    "latency": {
+      "count": 40,
+      "mean": 0.8817552030086517,
+      "median": 0.8745861053466797,
+      "std": 0.06198582307318532,
+      "min": 0.7890610694885254,
+      "max": 1.0599334239959717,
+      "p50": 0.8745861053466797,
+      "p95": 1.0287654399871826,
+      "p99": 1.0550071716308593
+    },
+    "ttft": {
+      "count": 40,
+      "mean": 0.07743986,
+      "median": 0.07173869999999999,
+      "std": 0.03562904787229886,
+      "min": 0.0263219,
+      "max": 0.1669357,
+      "p50": 0.07173869999999999,
+      "p95": 0.15037295499999995,
+      "p99": 0.16668844
+    },
+    "tpot": {
+      "count": 40,
+      "mean": 0.012731567420557859,
+      "median": 0.012691036507945567,
+      "std": 0.0007996871905969644,
+      "min": 0.010850295237827278,
+      "max": 0.01522544761916386,
+      "p50": 0.012691036507945567,
+      "p95": 0.014255035238244406,
+      "p99": 0.014915655142801356
+    },
+    "system": {
+      "cpu": {
+        "count": 28,
+        "mean": 96.20714285714286,
+        "median": 100.0,
+        "std": 16.58607020567937,
+        "min": 13.8,
+        "max": 100.0,
+        "p50": 100.0,
+        "p95": 100.0,
+        "p99": 100.0
+      },
+      "cpu_freq_current_mhz": {
+        "count": 28,
+        "mean": 2200.0,
+        "median": 2200.0,
+        "std": 0.0,
+        "min": 2200.0,
+        "max": 2200.0,
+        "p50": 2200.0,
+        "p95": 2200.0,
+        "p99": 2200.0
+      },
+      "server_process_cpu": {
+        "count": 28,
+        "mean": 1593.8035714285713,
+        "median": 1640.05,
+        "std": 320.01821531737943,
+        "min": 0.0,
+        "max": 1825.1,
+        "p50": 1640.05,
+        "p95": 1791.72,
+        "p99": 1821.266
+      },
+      "server_process_rss_mb": {
+        "count": 28,
+        "mean": 740.2967354910714,
+        "median": 681.97265625,
+        "std": 183.6229126312869,
+        "min": 492.3046875,
+        "max": 1312.57421875,
+        "p50": 681.97265625,
+        "p95": 1050.0171875,
+        "p99": 1241.6897265625
+      },
+      "server_process_threads": {
+        "count": 28,
+        "mean": 183,
+        "median": 183.0,
+        "std": 0.0,
+        "min": 183,
+        "max": 183,
+        "p50": 183.0,
+        "p95": 183.0,
+        "p99": 183.0
+      },
+      "gpu_util": {
+        "count": 28,
+        "mean": 14.857142857142858,
+        "median": 14.0,
+        "std": 1.4327979804948263,
+        "min": 13.0,
+        "max": 18.0,
+        "p50": 14.0,
+        "p95": 17.65,
+        "p99": 18.0
+      },
+      "gpu_mem_percent": {
+        "count": 28,
+        "mean": 21.605550806057646,
+        "median": 21.605550806057646,
+        "std": 0.0,
+        "min": 21.605550806057646,
+        "max": 21.605550806057646,
+        "p50": 21.605550806057646,
+        "p95": 21.605550806057646,
+        "p99": 21.605550806057646
+      },
+      "ram_max_gb": 18.611675262451172
+    },
+    "not_available": {
+      "kv_cache_usage": "NOT AVAILABLE",
+      "scheduler_queue": "NOT AVAILABLE",
+      "batch_size": "NOT AVAILABLE"
+    }
+  },
+  "server_health_before_warmup": {
+    "status": "ok",
+    "pid": 34892,
+    "loaded": true,
+    "mock": false,
+    "model_id": "sshleifer/tiny-gpt2",
+    "device": "cpu",
+    "has_torch": true,
+    "request_count": 428,
+    "uptime_s": 383.8560700416565,
+    "trace_enabled": false,
+    "trace_level": 0,
+    "trace_sample_ratio": 1.0,
+    "source_hash": "39cc7cd90bac40f1f712fc4233b114ad64466ff98851ff35ce4049b58b06cb87",
+    "runtime": {
+      "torch_version": "2.13.0+cpu",
+      "transformers_version": "5.16.1",
+      "torch_num_threads": 16,
+      "torch_num_interop_threads": 16,
+      "fixed_torch_threads": 16,
+      "fixed_torch_interop": 16,
+      "fixed_executor_max_workers": 32
+    },
+    "process": {
+      "rss_mb": 673.43359375,
+      "process_threads": 183,
+      "python_threads": 8
+    },
+    "gpu_util": 14.0,
+    "gpu_mem_used_mb": 1769.0625,
+    "gpu_mem_total_mb": 8188.0
+  },
+  "gc_before_warmup": [
+    430,
+    2,
+    0
+  ]
+}

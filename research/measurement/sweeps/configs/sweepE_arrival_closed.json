@@ -1,0 +1,17 @@
+{
+  "name": "sweepE_arrival_closed",
+  "workload_type": "synthetic",
+  "request_count": 40,
+  "input_tokens": 512,
+  "output_tokens": 64,
+  "concurrency": 8,
+  "arrival_rate": 0,
+  "arrival_distribution": "closed",
+  "prefix_reuse_fraction": 0,
+  "seed": 500,
+  "warmup_requests": 2,
+  "stream": true,
+  "timeout": 180,
+  "sampler_interval": 0.3,
+  "description": "closed"
+}

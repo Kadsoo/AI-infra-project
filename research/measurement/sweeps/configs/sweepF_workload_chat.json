@@ -1,0 +1,17 @@
+{
+  "name": "sweepF_workload_chat",
+  "workload_type": "chat",
+  "request_count": 20,
+  "input_tokens": 1024,
+  "output_tokens": 64,
+  "concurrency": 2,
+  "arrival_rate": 0,
+  "arrival_distribution": "closed",
+  "prefix_reuse_fraction": 0,
+  "seed": 620,
+  "warmup_requests": 2,
+  "stream": true,
+  "timeout": 120,
+  "sampler_interval": 0.3,
+  "description": "Workload chat"
+}

@@ -1,0 +1,123 @@
+{
+  "run_id": "repair-real-gate-20_07_c1_seed3102_off",
+  "session_id": "real-gate-20",
+  "seq": 7,
+  "started_at_utc": "2026-08-28T14:34:56.135153+00:00",
+  "finished_at_utc": "2026-08-28T14:35:18.198288+00:00",
+  "level": 0,
+  "level_name": "off",
+  "concurrency": 1,
+  "seed": 3102,
+  "config": {
+    "name": "repair_c1_seed3102_off",
+    "run_id": "repair-real-gate-20_07_c1_seed3102_off",
+    "phase": "repair_gate",
+    "concurrency": 1,
+    "seed": 3102,
+    "level": 0,
+    "level_name": "off",
+    "request_count": 20,
+    "input_tokens": 512,
+    "output_tokens": 64,
+    "arrival_distribution": "closed",
+    "warmup_requests": 2,
+    "stream": true,
+    "timeout": 180,
+    "sampler_interval": 0.3,
+    "client_mode": "per_request",
+    "server_pid": 41764,
+    "environment_hash": "5ef1dcbf575c"
+  },
+  "workload": {
+    "count": 20,
+    "input_tokens": {
+      "mean": 511.1,
+      "min": 510,
+      "max": 512
+    },
+    "output_tokens_target": 64,
+    "arrival_distribution": "closed",
+    "workload_types": [
+      "synthetic"
+    ]
+  },
+  "source_hashes": {
+    "hf_server.py": "5674baea122000265b8b80ad071e011a419c8556bb0aeebe69e009fda09ca064",
+    "harness.py": "aae22af6712ff9da2b8def2af3415e40d1db647828890da3f8916b6e25c8d722",
+    "causal_trace.py": "4f01bd4431a35c693529c41460629af2b2a5e9fe244bbb247ca9dd72527a1180",
+    "minimal_trace.py": "c9b465cca1e892c4e86e16d42c88a965a2f999e30577d2a3749ee3fdb285c947",
+    "run_measurement_repair_gate.py": "82f5454cb3d9721e1216fca6247027fd2b3198ec0a25206dab7b2ba5ef52be1a",
+    "generator.py": "5ef1dcbf575c8e95116af13bab3ad1eeaf85d739dd49cf2515e9ab3d95e3288c"
+  },
+  "client_runtime": {
+    "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "pid": 50696,
+    "psutil": "7.2.2",
+    "httpx": "0.28.1"
+  },
+  "server_health_before": {
+    "status": "ok",
+    "pid": 41764,
+    "loaded": true,
+    "mock": false,
+    "model_id": "sshleifer/tiny-gpt2",
+    "device": "cpu",
+    "has_torch": true,
+    "request_count": 120,
+    "uptime_s": 287.7210125923157,
+    "trace_enabled": false,
+    "trace_level": 0,
+    "trace_sample_ratio": 1.0,
+    "source_hash": "5674baea122000265b8b80ad071e011a419c8556bb0aeebe69e009fda09ca064",
+    "runtime": {
+      "torch_version": "2.13.0+cpu",
+      "transformers_version": "5.16.1",
+      "torch_num_threads": 16,
+      "torch_num_interop_threads": 16
+    },
+    "process": {
+      "rss_mb": 495.234375,
+      "process_threads": 202,
+      "python_threads": 9
+    },
+    "gpu_util": 0.0,
+    "gpu_mem_used_mb": 2022.109375,
+    "gpu_mem_total_mb": 8188.0
+  },
+  "server_health_after": {
+    "status": "ok",
+    "pid": 41764,
+    "loaded": true,
+    "mock": false,
+    "model_id": "sshleifer/tiny-gpt2",
+    "device": "cpu",
+    "has_torch": true,
+    "request_count": 140,
+    "uptime_s": 309.79125595092773,
+    "trace_enabled": false,
+    "trace_level": 0,
+    "trace_sample_ratio": 1.0,
+    "source_hash": "5674baea122000265b8b80ad071e011a419c8556bb0aeebe69e009fda09ca064",
+    "runtime": {
+      "torch_version": "2.13.0+cpu",
+      "transformers_version": "5.16.1",
+      "torch_num_threads": 16,
+      "torch_num_interop_threads": 16
+    },
+    "process": {
+      "rss_mb": 675.9609375,
+      "process_threads": 201,
+      "python_threads": 9
+    },
+    "gpu_util": 0.0,
+    "gpu_mem_used_mb": 2022.109375,
+    "gpu_mem_total_mb": 8188.0
+  },
+  "artifacts": {
+    "requests_csv": "F:\\AIinfraResearch\\research\\measurement_repair\\raw\\repair-real-gate-20_07_c1_seed3102_off_requests.csv",
+    "system_csv": "F:\\AIinfraResearch\\research\\measurement_repair\\raw\\repair-real-gate-20_07_c1_seed3102_off_system.csv",
+    "raw_json": "F:\\AIinfraResearch\\research\\measurement_repair\\raw\\repair-real-gate-20_07_c1_seed3102_off_raw.json"
+  },
+  "trace_count": 0
+}

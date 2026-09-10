@@ -1,0 +1,17 @@
+{
+  "name": "sweepG_ratio_r_long_in",
+  "workload_type": "synthetic",
+  "request_count": 20,
+  "input_tokens": 1024,
+  "output_tokens": 32,
+  "concurrency": 2,
+  "arrival_rate": 0,
+  "arrival_distribution": "closed",
+  "prefix_reuse_fraction": 0,
+  "seed": 752,
+  "warmup_requests": 2,
+  "stream": true,
+  "timeout": 180,
+  "sampler_interval": 0.3,
+  "description": "Ratio r_long_in"
+}

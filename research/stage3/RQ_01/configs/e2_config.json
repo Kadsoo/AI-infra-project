@@ -1,0 +1,47 @@
+{
+  "lam": 3.0,
+  "probe": [
+    {
+      "lam": 0.5,
+      "p95": 1.1748717948721605,
+      "attainment": 1.0
+    },
+    {
+      "lam": 1.0,
+      "p95": 1.184910256410268,
+      "attainment": 1.0
+    },
+    {
+      "lam": 1.5,
+      "p95": 1.2074807692307716,
+      "attainment": 1.0
+    },
+    {
+      "lam": 2.0,
+      "p95": 1.2631666666666834,
+      "attainment": 1.0
+    },
+    {
+      "lam": 2.5,
+      "p95": 1.3300455937335975,
+      "attainment": 1.0
+    },
+    {
+      "lam": 3.0,
+      "p95": 1.4018026886778672,
+      "attainment": 1.0
+    }
+  ],
+  "slo_p95": 4.0,
+  "slo_attain": 0.95,
+  "hot_prefix_len": 6144,
+  "transfer_dist": "lognormal mean 8ms x scale, sigma 0.5",
+  "arrival_dist": "Gamma renewal CV=1/sqrt(a)",
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}

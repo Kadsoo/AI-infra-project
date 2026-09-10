@@ -1,0 +1,104 @@
+{
+  "run_id": "baseline_short_context-rep2-1787899912",
+  "config": {
+    "name": "baseline_short_context",
+    "workload_type": "chat",
+    "request_count": 20,
+    "input_tokens": 128,
+    "output_tokens": 32,
+    "concurrency": 2,
+    "arrival_rate": 0,
+    "arrival_distribution": "closed",
+    "prefix_reuse_fraction": 0,
+    "seed": 10,
+    "warmup_requests": 2,
+    "stream": true,
+    "timeout": 120,
+    "sampler_interval": 0.3,
+    "description": "Short context 128/32, low memory pressure, concurrency 2",
+    "_src": "F:\\AIinfraResearch\\research\\measurement\\configs\\baseline_short_context.json",
+    "repeat": 2,
+    "run_id": "baseline_short_context-rep2-1787899912",
+    "environment_hash": "6c78dce7b294"
+  },
+  "success": 18,
+  "failed": 0,
+  "total_requests": 18,
+  "duration_s": 8.988540410995483,
+  "throughput_rps": 2.169973663972897,
+  "token_throughput": 69.4391572471327,
+  "latency": {
+    "count": 18,
+    "mean": 0.5262792905171713,
+    "median": 0.5318847894668579,
+    "std": 0.1979618292682669,
+    "min": 0.173475980758667,
+    "max": 0.9241986274719238,
+    "p50": 0.5318847894668579,
+    "p95": 0.9126685261726379,
+    "p99": 0.9218926072120667
+  },
+  "ttft": {
+    "count": 18,
+    "mean": 0.19149612222099677,
+    "median": 0.1921648499846924,
+    "std": 0.16865067188631622,
+    "min": 0.022352500003762543,
+    "max": 0.38309710001340136,
+    "p50": 0.1921648499846924,
+    "p95": 0.3775550999678671,
+    "p99": 0.38198870000429447
+  },
+  "tpot": {
+    "count": 18,
+    "mean": 0.01076714498189939,
+    "median": 0.005540225805992621,
+    "std": 0.006493835049066385,
+    "min": 0.004807077419583595,
+    "max": 0.018352232257565184,
+    "p50": 0.005540225805992621,
+    "p95": 0.018166408548601003,
+    "p99": 0.018315067515772346
+  },
+  "system": {
+    "cpu": {
+      "count": 19,
+      "mean": 46.17894736842105,
+      "median": 45.3,
+      "std": 30.690761891765998,
+      "min": 10.7,
+      "max": 92.3,
+      "p50": 45.3,
+      "p95": 79.16000000000003,
+      "p99": 89.672
+    },
+    "gpu_util": {
+      "count": 19,
+      "mean": 19.473684210526315,
+      "median": 19.0,
+      "std": 2.0376571801031034,
+      "min": 17.0,
+      "max": 24.0,
+      "p50": 19.0,
+      "p95": 22.200000000000003,
+      "p99": 23.64
+    },
+    "gpu_mem_percent": {
+      "count": 19,
+      "mean": 21.95067085095647,
+      "median": 21.957580834758183,
+      "std": 0.013747800177503535,
+      "min": 21.924758411700047,
+      "max": 21.957580834758183,
+      "p50": 21.957580834758183,
+      "p95": 21.957580834758183,
+      "p99": 21.957580834758183
+    },
+    "ram_max_gb": 17.075000762939453
+  },
+  "not_available": {
+    "kv_cache_usage": "NOT AVAILABLE",
+    "scheduler_queue": "NOT AVAILABLE",
+    "batch_size": "NOT AVAILABLE"
+  }
+}

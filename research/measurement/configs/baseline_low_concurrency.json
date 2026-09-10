@@ -1,0 +1,17 @@
+{
+  "name": "baseline_low_concurrency",
+  "workload_type": "synthetic",
+  "request_count": 20,
+  "input_tokens": 512,
+  "output_tokens": 64,
+  "concurrency": 1,
+  "arrival_rate": 0,
+  "arrival_distribution": "closed",
+  "prefix_reuse_fraction": 0,
+  "seed": 0,
+  "warmup_requests": 2,
+  "stream": true,
+  "timeout": 120,
+  "sampler_interval": 0.3,
+  "description": "Low concurrency (1), short-medium context 512/64, low memory pressure"
+}

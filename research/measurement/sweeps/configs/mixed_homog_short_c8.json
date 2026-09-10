@@ -1,0 +1,17 @@
+{
+  "name": "mixed_homog_short_c8",
+  "workload_type": "mixed",
+  "request_count": 20,
+  "input_tokens": 512,
+  "output_tokens": 64,
+  "concurrency": 8,
+  "arrival_rate": 0,
+  "arrival_distribution": "closed",
+  "prefix_reuse_fraction": 0,
+  "seed": 999,
+  "warmup_requests": 2,
+  "stream": true,
+  "timeout": 180,
+  "sampler_interval": 0.3,
+  "description": "Mixed mixed_homog_short_c8"
+}

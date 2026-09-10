@@ -1,0 +1,416 @@
+[
+  {
+    "run_id": "repair-real-gate-20-warm_04_c4_seed3401_l1",
+    "request_id": "req-0000-2681c0",
+    "clock_source": "perf_counter_ns",
+    "level": 1,
+    "ts": [
+      325308572802500,
+      325308576316400,
+      325308576758600,
+      325308583966400,
+      325308699280100,
+      325309689032600
+    ],
+    "timestamps": {
+      "t_handler_enter_ns": 325308572802500,
+      "t_prepare_submit_ns": 325308576316400,
+      "t_prepare_worker_start_ns": 325308576758600,
+      "t_first_forward_begin_ns": 325308583966400,
+      "t_first_content_yield_ns": 325308699280100,
+      "t_server_done_ns": 325309689032600
+    },
+    "event_count": 6
+  },
+  {
+    "run_id": "repair-real-gate-20-warm_04_c4_seed3401_l1",
+    "request_id": "req-0003-b4aded",
+    "clock_source": "perf_counter_ns",
+    "level": 1,
+    "ts": [
+      325308573722000,
+      325308580469600,
+      325308580535200,
+      325308584998300,
+      325308707699000,
+      325309693798200
+    ],
+    "timestamps": {
+      "t_handler_enter_ns": 325308573722000,
+      "t_prepare_submit_ns": 325308580469600,
+      "t_prepare_worker_start_ns": 325308580535200,
+      "t_first_forward_begin_ns": 325308584998300,
+      "t_first_content_yield_ns": 325308707699000,
+      "t_server_done_ns": 325309693798200
+    },
+    "event_count": 6
+  },
+  {
+    "run_id": "repair-real-gate-20-warm_04_c4_seed3401_l1",
+    "request_id": "req-0002-132a75",
+    "clock_source": "perf_counter_ns",
+    "level": 1,
+    "ts": [
+      325308573619100,
+      325308578654100,
+      325308579096400,
+      325308584702700,
+      325308715760200,
+      325309695331100
+    ],
+    "timestamps": {
+      "t_handler_enter_ns": 325308573619100,
+      "t_prepare_submit_ns": 325308578654100,
+      "t_prepare_worker_start_ns": 325308579096400,
+      "t_first_forward_begin_ns": 325308584702700,
+      "t_first_content_yield_ns": 325308715760200,
+      "t_server_done_ns": 325309695331100
+    },
+    "event_count": 6
+  },
+  {
+    "run_id": "repair-real-gate-20-warm_04_c4_seed3401_l1",
+    "request_id": "req-0001-fa4198",
+    "clock_source": "perf_counter_ns",
+    "level": 1,
+    "ts": [
+      325308573137800,
+      325308577396800,
+      325308577754100,
+      325308585272700,
+      325308691040700,
+      325309738327800
+    ],
+    "timestamps": {
+      "t_handler_enter_ns": 325308573137800,
+      "t_prepare_submit_ns": 325308577396800,
+      "t_prepare_worker_start_ns": 325308577754100,
+      "t_first_forward_begin_ns": 325308585272700,
+      "t_first_content_yield_ns": 325308691040700,
+      "t_server_done_ns": 325309738327800
+    },
+    "event_count": 6
+  },
+  {
+    "run_id": "repair-real-gate-20-warm_04_c4_seed3401_l1",
+    "request_id": "req-0005-163400",
+    "clock_source": "perf_counter_ns",
+    "level": 1,
+    "ts": [
+      325312700790100,
+      325312703405700,
+      325312704044000,
+      325312713139300,
+      325312862052300,
+      325313804478400
+    ],
+    "timestamps": {
+      "t_handler_enter_ns": 325312700790100,
+      "t_prepare_submit_ns": 325312703405700,
+      "t_prepare_worker_start_ns": 325312704044000,
+      "t_first_forward_begin_ns": 325312713139300,
+      "t_first_content_yield_ns": 325312862052300,
+      "t_server_done_ns": 325313804478400
+    },
+    "event_count": 6
+  },
+  {
+    "run_id": "repair-real-gate-20-warm_04_c4_seed3401_l1",
+    "request_id": "req-0006-62eddd",
+    "clock_source": "perf_counter_ns",
+    "level": 1,
+    "ts": [
+      325312701131500,
+      325312704659100,
+      325312704948300,
+      325312712080800,
+      325312868488200,
+      325313838258300
+    ],
+    "timestamps": {
+      "t_handler_enter_ns": 325312701131500,
+      "t_prepare_submit_ns": 325312704659100,
+      "t_prepare_worker_start_ns": 325312704948300,
+      "t_first_forward_begin_ns": 325312712080800,
+      "t_first_content_yield_ns": 325312868488200,
+      "t_server_done_ns": 325313838258300
+    },
+    "event_count": 6
+  },
+  {
+    "run_id": "repair-real-gate-20-warm_04_c4_seed3401_l1",
+    "request_id": "req-0007-2ac6a0",
+    "clock_source": "perf_counter_ns",
+    "level": 1,
+    "ts": [
+      325312701521800,
+      325312705553100,
+      325312706084100,
+      325312711792700,
+      325312865936200,
+      325313855325100
+    ],
+    "timestamps": {
+      "t_handler_enter_ns": 325312701521800,
+      "t_prepare_submit_ns": 325312705553100,
+      "t_prepare_worker_start_ns": 325312706084100,
+      "t_first_forward_begin_ns": 325312711792700,
+      "t_first_content_yield_ns": 325312865936200,
+      "t_server_done_ns": 325313855325100
+    },
+    "event_count": 6
+  },
+  {
+    "run_id": "repair-real-gate-20-warm_04_c4_seed3401_l1",
+    "request_id": "req-0004-d72c6b",
+    "clock_source": "perf_counter_ns",
+    "level": 1,
+    "ts": [
+      325312697837900,
+      325312699756000,
+      325312699893900,
+      325312705863700,
+      325312869054900,
+      325313896643200
+    ],
+    "timestamps": {
+      "t_handler_enter_ns": 325312697837900,
+      "t_prepare_submit_ns": 325312699756000,
+      "t_prepare_worker_start_ns": 325312699893900,
+      "t_first_forward_begin_ns": 325312705863700,
+      "t_first_content_yield_ns": 325312869054900,
+      "t_server_done_ns": 325313896643200
+    },
+    "event_count": 6
+  },
+  {
+    "run_id": "repair-real-gate-20-warm_04_c4_seed3401_l1",
+    "request_id": "req-0010-4020b6",
+    "clock_source": "perf_counter_ns",
+    "level": 1,
+    "ts": [
+      325316790750200,
+      325316794928200,
+      325316795263600,
+      325316802121500,
+      325316945289800,
+      325317922884600
+    ],
+    "timestamps": {
+      "t_handler_enter_ns": 325316790750200,
+      "t_prepare_submit_ns": 325316794928200,
+      "t_prepare_worker_start_ns": 325316795263600,
+      "t_first_forward_begin_ns": 325316802121500,
+      "t_first_content_yield_ns": 325316945289800,
+      "t_server_done_ns": 325317922884600
+    },
+    "event_count": 6
+  },
+  {
+    "run_id": "repair-real-gate-20-warm_04_c4_seed3401_l1",
+    "request_id": "req-0008-aead7d",
+    "clock_source": "perf_counter_ns",
+    "level": 1,
+    "ts": [
+      325316783386600,
+      325316788858600,
+      325316789524000,
+      325316796374100,
+      325316946408700,
+      325317929438900
+    ],
+    "timestamps": {
+      "t_handler_enter_ns": 325316783386600,
+      "t_prepare_submit_ns": 325316788858600,
+      "t_prepare_worker_start_ns": 325316789524000,
+      "t_first_forward_begin_ns": 325316796374100,
+      "t_first_content_yield_ns": 325316946408700,
+      "t_server_done_ns": 325317929438900
+    },
+    "event_count": 6
+  },
+  {
+    "run_id": "repair-real-gate-20-warm_04_c4_seed3401_l1",
+    "request_id": "req-0011-e37fa7",
+    "clock_source": "perf_counter_ns",
+    "level": 1,
+    "ts": [
+      325316791123600,
+      325316795897500,
+      325316796003900,
+      325316802783000,
+      325316944972500,
+      325317936646900
+    ],
+    "timestamps": {
+      "t_handler_enter_ns": 325316791123600,
+      "t_prepare_submit_ns": 325316795897500,
+      "t_prepare_worker_start_ns": 325316796003900,
+      "t_first_forward_begin_ns": 325316802783000,
+      "t_first_content_yield_ns": 325316944972500,
+      "t_server_done_ns": 325317936646900
+    },
+    "event_count": 6
+  },
+  {
+    "run_id": "repair-real-gate-20-warm_04_c4_seed3401_l1",
+    "request_id": "req-0009-4d6129",
+    "clock_source": "perf_counter_ns",
+    "level": 1,
+    "ts": [
+      325316790347000,
+      325316793599200,
+      325316794022600,
+      325316801780200,
+      325316945692000,
+      325317990594100
+    ],
+    "timestamps": {
+      "t_handler_enter_ns": 325316790347000,
+      "t_prepare_submit_ns": 325316793599200,
+      "t_prepare_worker_start_ns": 325316794022600,
+      "t_first_forward_begin_ns": 325316801780200,
+      "t_first_content_yield_ns": 325316945692000,
+      "t_server_done_ns": 325317990594100
+    },
+    "event_count": 6
+  },
+  {
+    "run_id": "repair-real-gate-20-warm_04_c4_seed3401_l1",
+    "request_id": "req-0012-36d4e6",
+    "clock_source": "perf_counter_ns",
+    "level": 1,
+    "ts": [
+      325320726992600,
+      325320729653100,
+      325320729780500,
+      325320735146800,
+      325320845844600,
+      325321867616900
+    ],
+    "timestamps": {
+      "t_handler_enter_ns": 325320726992600,
+      "t_prepare_submit_ns": 325320729653100,
+      "t_prepare_worker_start_ns": 325320729780500,
+      "t_first_forward_begin_ns": 325320735146800,
+      "t_first_content_yield_ns": 325320845844600,
+      "t_server_done_ns": 325321867616900
+    },
+    "event_count": 6
+  },
+  {
+    "run_id": "repair-real-gate-20-warm_04_c4_seed3401_l1",
+    "request_id": "req-0015-5d690d",
+    "clock_source": "perf_counter_ns",
+    "level": 1,
+    "ts": [
+      325320732326500,
+      325320738444700,
+      325320738560200,
+      325320745182200,
+      325320885854100,
+      325321895067600
+    ],
+    "timestamps": {
+      "t_handler_enter_ns": 325320732326500,
+      "t_prepare_submit_ns": 325320738444700,
+      "t_prepare_worker_start_ns": 325320738560200,
+      "t_first_forward_begin_ns": 325320745182200,
+      "t_first_content_yield_ns": 325320885854100,
+      "t_server_done_ns": 325321895067600
+    },
+    "event_count": 6
+  },
+  {
+    "run_id": "repair-real-gate-20-warm_04_c4_seed3401_l1",
+    "request_id": "req-0014-24f515",
+    "clock_source": "perf_counter_ns",
+    "level": 1,
+    "ts": [
+      325320731956500,
+      325320737381700,
+      325320737738600,
+      325320744109300,
+      325320885325900,
+      325321896912900
+    ],
+    "timestamps": {
+      "t_handler_enter_ns": 325320731956500,
+      "t_prepare_submit_ns": 325320737381700,
+      "t_prepare_worker_start_ns": 325320737738600,
+      "t_first_forward_begin_ns": 325320744109300,
+      "t_first_content_yield_ns": 325320885325900,
+      "t_server_done_ns": 325321896912900
+    },
+    "event_count": 6
+  },
+  {
+    "run_id": "repair-real-gate-20-warm_04_c4_seed3401_l1",
+    "request_id": "req-0013-21e735",
+    "clock_source": "perf_counter_ns",
+    "level": 1,
+    "ts": [
+      325320731450800,
+      325320736060800,
+      325320736481500,
+      325320744379500,
+      325320888444600,
+      325321902885000
+    ],
+    "timestamps": {
+      "t_handler_enter_ns": 325320731450800,
+      "t_prepare_submit_ns": 325320736060800,
+      "t_prepare_worker_start_ns": 325320736481500,
+      "t_first_forward_begin_ns": 325320744379500,
+      "t_first_content_yield_ns": 325320888444600,
+      "t_server_done_ns": 325321902885000
+    },
+    "event_count": 6
+  },
+  {
+    "run_id": "repair-real-gate-20-warm_04_c4_seed3401_l1",
+    "request_id": "req-0017-1f6c41",
+    "clock_source": "perf_counter_ns",
+    "level": 1,
+    "ts": [
+      325323358783800,
+      325323360039900,
+      325323360175700,
+      325323365536500,
+      325323395498800,
+      325323889424800
+    ],
+    "timestamps": {
+      "t_handler_enter_ns": 325323358783800,
+      "t_prepare_submit_ns": 325323360039900,
+      "t_prepare_worker_start_ns": 325323360175700,
+      "t_first_forward_begin_ns": 325323365536500,
+      "t_first_content_yield_ns": 325323395498800,
+      "t_server_done_ns": 325323889424800
+    },
+    "event_count": 6
+  },
+  {
+    "run_id": "repair-real-gate-20-warm_04_c4_seed3401_l1",
+    "request_id": "req-0016-384e1f",
+    "clock_source": "perf_counter_ns",
+    "level": 1,
+    "ts": [
+      325323355741800,
+      325323357907000,
+      325323358174200,
+      325323362895100,
+      325323482481200,
+      325323972990000
+    ],
+    "timestamps": {
+      "t_handler_enter_ns": 325323355741800,
+      "t_prepare_submit_ns": 325323357907000,
+      "t_prepare_worker_start_ns": 325323358174200,
+      "t_first_forward_begin_ns": 325323362895100,
+      "t_first_content_yield_ns": 325323482481200,
+      "t_server_done_ns": 325323972990000
+    },
+    "event_count": 6
+  }
+]

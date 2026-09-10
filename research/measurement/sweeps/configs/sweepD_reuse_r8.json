@@ -1,0 +1,17 @@
+{
+  "name": "sweepD_reuse_r8",
+  "workload_type": "prefix_reuse",
+  "request_count": 20,
+  "input_tokens": 1024,
+  "output_tokens": 64,
+  "concurrency": 4,
+  "arrival_rate": 0,
+  "arrival_distribution": "closed",
+  "prefix_reuse_fraction": 0.8,
+  "seed": 408,
+  "warmup_requests": 2,
+  "stream": true,
+  "timeout": 120,
+  "sampler_interval": 0.3,
+  "description": "Reuse 0.8"
+}

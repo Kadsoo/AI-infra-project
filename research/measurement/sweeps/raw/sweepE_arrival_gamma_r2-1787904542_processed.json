@@ -1,0 +1,102 @@
+{
+  "run_id": "sweepE_arrival_gamma_r2-1787904542",
+  "config": {
+    "name": "sweepE_arrival_gamma_r2",
+    "workload_type": "synthetic",
+    "request_count": 40,
+    "input_tokens": 512,
+    "output_tokens": 64,
+    "concurrency": 8,
+    "arrival_rate": 2,
+    "arrival_distribution": "gamma",
+    "prefix_reuse_fraction": 0,
+    "seed": 530,
+    "warmup_requests": 2,
+    "stream": true,
+    "timeout": 180,
+    "sampler_interval": 0.3,
+    "description": "gamma 2",
+    "environment_hash": "6c78dce7b294",
+    "run_id": "sweepE_arrival_gamma_r2-1787904542"
+  },
+  "success": 38,
+  "failed": 0,
+  "total_requests": 38,
+  "duration_s": 45.70446157455444,
+  "throughput_rps": 0.8751623596456287,
+  "token_throughput": 56.01039101732024,
+  "latency": {
+    "count": 38,
+    "mean": 5.573350561292548,
+    "median": 5.624197006225586,
+    "std": 1.8186663325317431,
+    "min": 1.9655945301055908,
+    "max": 8.817267894744873,
+    "p50": 5.624197006225586,
+    "p95": 8.651164555549622,
+    "p99": 8.777510685920715
+  },
+  "ttft": {
+    "count": 38,
+    "mean": 2.7343924789502605,
+    "median": 2.5315094500256237,
+    "std": 1.7233696934347233,
+    "min": 0.20542190002743155,
+    "max": 5.763305599975865,
+    "p50": 2.5315094500256237,
+    "p95": 5.649536955001531,
+    "p99": 5.7347981359757245
+  },
+  "tpot": {
+    "count": 38,
+    "mean": 0.0449762518379132,
+    "median": 0.04929023254006761,
+    "std": 0.008619880829626206,
+    "min": 0.02717258412730954,
+    "max": 0.05244250476197709,
+    "p50": 0.04929023254006761,
+    "p95": 0.05187163769820934,
+    "p99": 0.05228843558745991
+  },
+  "system": {
+    "cpu": {
+      "count": 62,
+      "mean": 38.69032258064516,
+      "median": 44.65,
+      "std": 14.355803186869673,
+      "min": 6.3,
+      "max": 53.3,
+      "p50": 44.65,
+      "p95": 52.165000000000006,
+      "p99": 53.056
+    },
+    "gpu_util": {
+      "count": 62,
+      "mean": 0.3064516129032258,
+      "median": 0.0,
+      "std": 0.46478303337375604,
+      "min": 0.0,
+      "max": 1.0,
+      "p50": 0.0,
+      "p95": 1.0,
+      "p99": 1.0
+    },
+    "gpu_mem_percent": {
+      "count": 62,
+      "mean": 19.962187423668784,
+      "median": 19.962187423668784,
+      "std": 0.0,
+      "min": 19.962187423668784,
+      "max": 19.962187423668784,
+      "p50": 19.962187423668784,
+      "p95": 19.962187423668784,
+      "p99": 19.962187423668784
+    },
+    "ram_max_gb": 18.445980072021484
+  },
+  "not_available": {
+    "kv_cache_usage": "NOT AVAILABLE",
+    "scheduler_queue": "NOT AVAILABLE",
+    "batch_size": "NOT AVAILABLE"
+  }
+}
