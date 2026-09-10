@@ -1,4 +1,0 @@
-{"event": "run_complete", "run_id": "repair-mock-gate-40_01_c1_seed3101_off", "level": "off", "concurrency": 1, "seed": 3101}
-{"event": "run_complete", "run_id": "repair-mock-gate-40_02_c4_seed3401_off", "level": "off", "concurrency": 4, "seed": 3401}
-{"event": "run_complete", "run_id": "repair-mock-gate-40_03_c1_seed3101_l1", "level": "l1", "concurrency": 1, "seed": 3101}
-{"event": "run_complete", "run_id": "repair-mock-gate-40_04_c4_seed3401_l1", "level": "l1", "concurrency": 4, "seed": 3401}

@@ -1,3 +1,0 @@
-{"event": "stationarity_run_complete", "run_id": "stationarity-3mb-stationarity-01_01_c1_seed4101_off_r1", "seq": 1, "concurrency": 1, "seed": 4101, "invalid": false}
-{"event": "stationarity_run_complete", "run_id": "stationarity-3mb-stationarity-01_02_c1_seed4102_off_r1", "seq": 2, "concurrency": 1, "seed": 4102, "invalid": true}
-{"event": "stationarity_run_complete", "run_id": "stationarity-3mb-stationarity-01_03_c4_seed4401_off_r1", "seq": 3, "concurrency": 4, "seed": 4401, "invalid": false}

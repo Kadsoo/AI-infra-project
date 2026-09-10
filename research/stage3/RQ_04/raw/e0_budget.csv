@@ -1,3 +1,0 @@
-budget_level,total_kv_tokens,per_node_kv_tokens,G_pp,derivation
-L1,32768,8192,0.0,4x2048-token-class concurrency: per node 4 concurrent 2048-token classes = 4*2048 = 8192 tokens; x4 nodes = 32768. Within Mooncake LRU envelope 30%@1K -> 50%@50K -> 51%@Inf (8K/node mid-curve) and SGLang production hit range.
-L2,16384,4096,0.0,50% smaller than L1 (hypothesis.md IV-6).

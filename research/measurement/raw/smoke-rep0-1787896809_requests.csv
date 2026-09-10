@@ -1,1 +1,0 @@
-request_id,workload_type,arrival_time,dispatch_time,queue_time,ttft,tpot,inter_token_latencies,total_latency,completion_time,input_tokens,output_tokens,success,error,status_code,prompt_text,output_text

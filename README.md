@@ -6,8 +6,6 @@
 
 ## Structure
 
-- `research/` — literature survey, bottleneck analysis, measurement harness and
-  historical stage reports (Stage 3x).
 - `tasks/` — task specs (`tasks/我的任务A0.md`) and experiment outputs.
 
 ## Experiment A0: Benchmark 2 (agent workflow) + vLLM — DONE
