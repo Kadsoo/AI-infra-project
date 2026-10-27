@@ -1,0 +1,1 @@
+{"summary": {"mode": "single", "n": 60, "conc": 4, "wall": 9.846486568450928, "ok": 60, "err": 0, "ttft_p50": 0.09034156799316406, "ttft_p95": 0.5714809894561768, "itl_p50": 0.01940493072782244, "out_tps": 176.7127785026513, "hit_rate": 0, "makespan_p50": null}, "m0": {"queries": 0.0, "hits": 0.0}, "m1": {"queries": 0.0, "hits": 0.0}}

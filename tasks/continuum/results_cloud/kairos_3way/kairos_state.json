@@ -1,0 +1,67 @@
+{
+  "status": "complete",
+  "method": "kairos",
+  "started_at": 1793071361.0142925,
+  "gpu": {
+    "index": "0",
+    "uuid": "GPU-ec71dfdd-7e85-91bf-4d96-2658fb724a5e",
+    "total": "24564",
+    "used": "0",
+    "util": "0"
+  },
+  "packages": {
+    "torch": "2.13.0+cu132",
+    "vllm": "0.28.0",
+    "lmcache": "0.5.5rc4",
+    "transformers": "5.16.1",
+    "httpx": "0.28.1"
+  },
+  "profile_sha256": "a08d9e3b28095bc20366a3a7dfe9b7578c514b0b4cbebb60be048bf75c73e022",
+  "reload_sha256": "5238b9cc074cef7794c8665ca05f032ffbc236d8e24f499e8cf3ae62cab4b7d2",
+  "trace_sha256": "4c896b93b14eff39bcc6e2fd0700ba59a1bfcfd785bd15e645d5e1a2ffeee2e8",
+  "expected_model_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "verified_model": {
+    "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+    "files_verified": [
+      "config.json",
+      "generation_config.json",
+      "merges.txt",
+      "model-00001-of-00005.safetensors",
+      "model-00002-of-00005.safetensors",
+      "model-00003-of-00005.safetensors",
+      "model-00004-of-00005.safetensors",
+      "model-00005-of-00005.safetensors",
+      "model.safetensors.index.json",
+      "tokenizer.json",
+      "tokenizer_config.json",
+      "vocab.json"
+    ],
+    "weights_verified": true
+  },
+  "packaging_gpu_revalidation": true,
+  "summary": {
+    "method": "kairos",
+    "wall_s": 148.53546722233295,
+    "start_wall_time": 1793071503.2000713,
+    "end_wall_time": 1793071651.7378004,
+    "completed": 178,
+    "failed": 0,
+    "jobs": 16,
+    "jct_mean_s": 102.55589960096404,
+    "jct_p95_s": 142.70542134530842,
+    "primed_jct_mean_s": null,
+    "primed_jct_p95_s": null,
+    "ttft_mean_s": 4.441238312322772,
+    "ttft_p95_s": 31.38302570730452,
+    "itl_mean_s": 0.02918853667580961,
+    "itl_p95_s": 0.05962047353386879,
+    "e2e_mean_s": 8.703355785291851,
+    "e2e_p95_s": 33.6451450683177,
+    "request_throughput": 1.19836698486001,
+    "output_token_throughput": 176.1464819768388,
+    "total_token_throughput": 6340.552984495522,
+    "hierarchy": "Program=one user target; human wait excluded from Program JCT",
+    "workload_scope": "public production metadata, synthetic token identity, bounded serial subset"
+  },
+  "ended_at": 1793071657.2565203
+}
